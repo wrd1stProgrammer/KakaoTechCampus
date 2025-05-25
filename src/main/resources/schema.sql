@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS schedules (
+  id          BIGINT      AUTO_INCREMENT PRIMARY KEY,
+  title       VARCHAR(100) NOT NULL,
+  content     TEXT         NOT NULL,
+  writer      VARCHAR(50)  NOT NULL,
+  password    VARCHAR(255) NOT NULL,
+  start_at    DATETIME     NOT NULL,
+  end_at      DATETIME     NOT NULL,
+  created_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at  DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
