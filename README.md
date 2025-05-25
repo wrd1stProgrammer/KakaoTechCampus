@@ -1,3 +1,8 @@
+## ERD
+![ktcERD](https://github.com/user-attachments/assets/339d5b42-73cc-4ac0-8ba9-d5019950996e)
+
+
+
 ## API 명세서
 
 ## 1. 일정 등록 `POST /api/schedule`
@@ -64,3 +69,4 @@
   "createdAt": "2025-05-25T14:12:34",
   "updatedAt": "2025-05-25T14:12:34"
 }
+
