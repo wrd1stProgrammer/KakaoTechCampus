@@ -18,4 +18,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
                 .body(new ErrorResponse(401, ex.getMessage()));
     }
+
+
+
 }

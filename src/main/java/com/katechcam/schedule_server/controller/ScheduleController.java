@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/api/schedule")
 @RequiredArgsConstructor
 public class ScheduleController {
 
@@ -39,4 +39,5 @@ public class ScheduleController {
         service.delete(id, password);
         return ResponseEntity.noContent().build();
     }
+
 }
