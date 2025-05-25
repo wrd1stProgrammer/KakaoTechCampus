@@ -7,7 +7,7 @@
 
 ## 1. 일정 등록 `POST /api/schedule`
 
-| **Request-Body** | ```json { "title": "회의", "content": "킥오프", "writer": "Alice", "password": "qwer1234", "startAt": "2025-06-01T10:00:00", "endAt": "2025-06-01T11:00:00" }``` |
+| **Request-Body** | ```json { "title": "카테캠 회의", "content": "스프링에 관하여", "writer": "채민식", "password": "qwer1234", "startAt": "2025-06-01T10:00:00", "endAt": "2025-06-01T11:00:00" }``` |
 | **성공** | `201 Created` &nbsp;↦ `ScheduleResponse` |
 | **실패** | `400 Bad Request` – 필수 필드 누락 |
 
